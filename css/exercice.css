@@ -70,6 +70,21 @@
 }
 
 /* 8. exercice-8 */
+.exercice-8 .container {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  
+}
+
+.exercice-8 .element-yellow {
+  order: 1;
+}
+.exercice-8 .element-pink {
+  order: 2;
+}
 
 /* 9. exercice-9 */
 .exercice-9 .container {

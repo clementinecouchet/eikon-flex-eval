@@ -42,7 +42,12 @@
   order: 2;
 }
 /* 5. exercice-5 */
-
+.exercice-5 .container {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+}
 /* 6. exercice-6 */
 
 /* 7. exercice-7 */

@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
 }
+
 /* 3. exercice-3 */
 .exercice-3 .container {
   flex-direction: column;
@@ -26,6 +27,7 @@
   order: -1;
   align-self: flex-start;
 }
+
 /* 4. exercice-4 */
 .exercice-4 .container {
   justify-content: space-between;
@@ -41,6 +43,7 @@
 .exercice-4 .element-blue {
   order: 2;
 }
+
 /* 5. exercice-5 */
 .exercice-5 .container {
   justify-content: center;
@@ -52,17 +55,20 @@
 .exercice-6 .container {
   flex-wrap: wrap-reverse;
   align-content: space-between;
+  flex-direction: row;
 }
 
 .exercice-6 .element {
   flex-grow: 1;
 }
+
 /* 7. exercice-7 */
 .exercice-7 .container {
   flex-flow: column-reverse wrap-reverse;
   align-content: center;
   justify-content: space-between;
 }
+
 /* 8. exercice-8 */
 
 /* 9. exercice-9 */
@@ -76,8 +82,10 @@
   box-sizing: border-box;
   width: 50%;
 }
+
 /* 10. exercice-10 */
 .exercice-10 .container {
   align-items: center;
   justify-content: space-around;
+  flex-direction: row;
 }

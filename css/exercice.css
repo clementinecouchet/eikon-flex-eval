@@ -10,7 +10,11 @@
  }
 
 /* 2. exercice-2 */
-
+.exercice-2 .container {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
 /* 3. exercice-3 */
 
 /* 4. exercice-4 */

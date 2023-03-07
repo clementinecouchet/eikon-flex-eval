@@ -71,19 +71,19 @@
 
 /* 8. exercice-8 */
 .exercice-8 .container {
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: row;
-  box-sizing: border-box;
-  
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: baseline;
 }
 
-.exercice-8 .element-yellow {
-  order: 1;
+.exercice-8 .element {
+  align-self: center;
+  flex-grow: 1;
 }
+
 .exercice-8 .element-pink {
-  order: 2;
+  order: 1;
 }
 
 /* 9. exercice-9 */
